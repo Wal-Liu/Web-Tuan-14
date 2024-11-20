@@ -14,7 +14,6 @@ import java.util.Set;
 public class MyUserService implements UserDetails {
         private static final long serialVersionUID = 1L;
         private Users user;
-
         public MyUserService(Users user) {
                 this.user = user;
         }
